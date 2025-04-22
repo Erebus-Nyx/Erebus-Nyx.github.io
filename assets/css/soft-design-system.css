@@ -8420,6 +8420,49 @@ fieldset:disabled .btn {
   z-index: 1030;
 }
 
+.fixed-left {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.fixed-right {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1030;
+}
+
+.fixed-topright {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1030;
+}
+
+.fixed-topleft {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.fixed-bottomright {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1030;
+}
+.fixed-bottomleft {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+}
+
 .sticky-top {
   position: sticky;
   top: 0;
@@ -8429,6 +8472,18 @@ fieldset:disabled .btn {
 .sticky-bottom {
   position: sticky;
   bottom: 0;
+  z-index: 1020;
+}
+
+.sticky-left {
+  position: sticky;
+  left: 0;
+  z-index: 1020;
+}
+
+.sticky-right {
+  position: sticky;
+  right: 0;
   z-index: 1020;
 }
 
